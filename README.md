@@ -1,6 +1,6 @@
 # CRA + Express Mono repo starter 2020
 
-This project is a mono-repo starter with a Frontend, a backend and scripts package shared between the two!
+This project is a mono-repo starter with a Frontend and a Backend with a scripts package shared between the two!
 
 The mono-repo has Jest & Babel as well as ESLint/Prettier configured in all packages.
 
