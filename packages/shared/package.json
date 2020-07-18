@@ -1,6 +1,6 @@
 {
   "name": "shared",
-  "private": true,
+  "license": "ISC",
   "engines": {
     "node": "=14.4.0"
   },
