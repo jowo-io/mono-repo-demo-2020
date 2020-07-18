@@ -14,7 +14,9 @@ See the [app readme here](./packages/app/README.md)
 
 ## Server/Backend
 
-Uses a custom webpack config to generate a single bundle file which can be deployed to a remote server. Is configured with Jest, ES6/Babel, Express. It is run in the background with Nodemon.
+Uses a custom webpack config to generate a single bundle file which can be deployed to a remote server. Is configured with Jest, ES6/Babel, Express.
+
+During development it is run in the background with Nodemon and can be debugged in a headless Chrome console!
 
 See the [server readme here](./packages/server/README.md)
 
