@@ -1,0 +1,9 @@
+{
+	"displayName": "server",
+	"rootDir": "../",
+	"testMatch": ["<rootDir>/server/src/**/*.test.js"],
+	"moduleNameMapper": {
+		"MM:shared/(.*)$": "<rootDir>/shared/$1",
+		"@scripts/(.*)$": "<rootDir>/server/src/scripts/$1"
+	}
+}

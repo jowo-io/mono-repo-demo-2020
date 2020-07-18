@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "MM:shared/*": [
+        "../shared/*"
+      ],
+      "@scripts/*": [
+        "src/scripts/*",
+      ],
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

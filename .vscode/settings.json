@@ -1,0 +1,55 @@
+{
+	"runCurrentTest.run": "cd $( dirname ${relativeTestPath}); npm run jest -- ${relativeTestPath}",
+	"editor.tabSize": 4,
+	"window.zoomLevel": 0,
+	"git.enableSmartCommit": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"eslint.format.enable": true,
+	"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	"editor.formatOnSave": true,
+	"eslint.options": {
+		"configFile": ".eslintrc.js",
+		"ignoreFile": ".eslintignore"
+	},
+	"eslint.alwaysShowStatus": true,
+	"[javascript]": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		},
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
+	"[json]": {
+		"editor.formatOnSave": true
+	},
+	"[css]": {
+		"editor.formatOnSave": true
+	},
+	"[scss]": {
+		"editor.formatOnSave": true,
+	},
+	"[html]": {
+		"editor.formatOnSave": true
+	},
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/build": true,
+		"**/dist": true,
+	},
+	"files.exclude": {
+		"**/.node-version": true,
+		"**/npm-debug.log": true,
+		"**/node_modules": true,
+		"**/log.txt": true,
+		"**/yarn.lock": true,
+		"**/.cache": true,
+		"**/npm-debug*": true,
+		"**/package-lock.json": true,
+		"**/yarn-lock.json": true
+	},
+	"cSpell.words": [],
+	"cSpell.ignoreWords": [],
+	"javascript.suggest.autoImports": false
+}

@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "private": true,
+  "engines": {
+    "node": "=14.4.0"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "main": "build/server.bundle.js",
+  "dependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^26.1.0",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.6.1",
+    "copy-webpack-plugin": "^4.5.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jest": "^26.1.0",
+    "nodemon-webpack-plugin": "^4.3.2",
+    "terser-webpack-plugin": "^1.2.2",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "jest": "jest",
+    "dev": "webpack --mode=development --watch",
+    "build": "webpack --mode=production",
+    "build-dev": "webpack --mode=development",
+    "compile": "npm run build-dev && node .",
+    "preinstall": "rm -rf node_modules/ && rm -rf package-lock.json"
+  }
+}

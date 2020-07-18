@@ -1,0 +1,13 @@
+# settings
+.vscode/
+
+# node/npm
+node_modules/
+
+# dist folders
+build/
+public/
+dist/
+
+# cache
+.cache

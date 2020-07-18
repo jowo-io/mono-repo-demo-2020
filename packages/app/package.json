@@ -1,0 +1,50 @@
+{
+  "name": "app",
+  "private": true,
+  "engines": {
+    "node": "=14.4.0"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "jest": {
+    "moduleNameMapper": {
+      "MM:shared/(.*)$": "<rootDir>/../shared/$1",
+      "@components/(.*)$": "<rootDir>/../app/src/components/$1"
+    }
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "customize-cra": "^1.0.0",
+    "react-app-rewire-babel-loader": "^0.1.1",
+    "react-app-rewire-eslint": "^0.2.3",
+    "react-app-rewired": "^2.1.6",
+    "react-game-engine": "^1.0.0",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "eslint": "eslint -c ../../.eslintrc.js --fix ./src",
+    "dev": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "jest": "react-app-rewired test",
+    "eject": "react-app-rewired eject",
+    "preinstall": "rm -rf node_modules/ && rm -rf package-lock.json"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "shared",
+  "private": true,
+  "engines": {
+    "node": "=14.4.0"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "scripts": {
+    "jest": "jest",
+    "preinstall": "rm -rf node_modules/ && rm -rf package-lock.json"
+  },
+  "dependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0"
+  }
+}
