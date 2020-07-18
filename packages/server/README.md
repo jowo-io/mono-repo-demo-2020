@@ -8,7 +8,7 @@ To develop, run:
 
 `npm run dev`
 
-> NOTE - console logging has been disabled in the webpack config, and node --inspect has been enabled!
+> NOTE - console logging output in the terminal/command prompt is disabled by the webpack config. Node --inspect has been enabled instead!
 
 To run tests either follow the guide in the [main README](/README.md) or run:
 
