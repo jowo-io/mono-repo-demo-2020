@@ -4,6 +4,8 @@ This project is a mono-repo starter with a Frontend, a backend and scripts packa
 
 The mono-repo has Jest & Babel as well as ESLint/Prettier configured in all packages.
 
+See the blog post for more detail [here](https://medium.com/@jowo_io/my-javascript-development-stack-in-2020-react-express-mono-repo-4418c8988e82)
+
 ## App/Frontend
 
 Uses React CRA (unejected but rewired with `react-app-rewire` and customised with `customize-cra`).
@@ -14,14 +16,14 @@ See the [app readme here](./packages/app/README.md)
 
 Uses a custom webpack config to generate a single bundle file which can be deployed to a remote server. Is configured with Jest, ES6/Babel, Express. It is run in the background with Nodemon.
 
-See the [app readme here](./packages/server/README.md)
+See the [server readme here](./packages/server/README.md)
 
 ## Shared
 
 A useful package which includes shared scripts. They can be imported in either `app/` or `server/` using the webpack alias `MM:Shared`. This avoids the need to faff about with `.symlinks`, `npm link` or Lerna.
 
 
-See the [app readme here](./packages/shared/README.md)
+See the [shared readme here](./packages/shared/README.md)
 
 ----
 
@@ -37,7 +39,7 @@ and
 
 `cd packages/server/ && npm run dev`
 
-and finally open the CRA test port at [localhost:3000](http://localhost:3000/)
+and finally open the CRA test port at `localhost:3000`
 
 # About
 
