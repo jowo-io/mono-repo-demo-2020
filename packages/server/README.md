@@ -16,7 +16,7 @@ To open the server's console open the chrome browser’s console and you’ll se
 
 <img src="https://miro.medium.com/max/646/1*RRk8fekyUuI-5APL2seKmA.png" alt="node --inspect mode" />
 
-Click it and a headless console will open which is connected to servers Node script!
+Click it and a headless console will open which is connected to server's Node script!
 
 <img src="https://miro.medium.com/max/840/1*5JaGCvjX_-nEkUsxSBJbEA.png" alt="headless chrome console for node deugging" />
 
