@@ -12,7 +12,7 @@ To develop, run:
 
 To run tests either follow the guide in the [main README](/README.md) or run:
 
-To open the servers console open the chrome browser’s console and you’ll see a little green icon once the server npm run dev script has been started.
+To open the server's console open the chrome browser’s console and you’ll see a little green icon once the server npm run dev script has been started.
 
 <img src="https://miro.medium.com/max/646/1*RRk8fekyUuI-5APL2seKmA.png" alt="node --inspect mode" />
 
