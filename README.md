@@ -4,7 +4,7 @@ This project is a mono-repo starter with a Frontend and a Backend with a scripts
 
 The mono-repo has Jest & Babel as well as ESLint/Prettier configured in all packages.
 
-See the blog post for more detail [here](https://medium.com/@jowo_io/my-javascript-development-stack-in-2020-react-express-mono-repo-4418c8988e82)
+See the blog post for more detail [here](https://www.jowo.io/posts/javascript-dev-stack-2020)
 
 ## App/Frontend
 
