@@ -14,7 +14,7 @@ To run tests either follow the guide in the [main README](/README.md) or run:
 
 To open the server's console open the chrome browser’s console and you’ll see a little green icon once the server npm run dev script has been started.
 
-<img src="https:www.jowo.io/posts/javascript-dev-stack-2020/node-inspect-chrome-developer-console.png" alt="node --inspect mode" />
+<img src="https://www.jowo.io/posts/javascript-dev-stack-2020/node-inspect-chrome-developer-console.png" alt="node --inspect mode" />
 
 Click it and a headless console will open which is connected to server's Node script!
 
